@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regristrasi</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome (Icon Library) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reg.css">
+  <link rel="icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container form-container">
+    <!-- Logo -->
+    <img src="logo.png" alt="Logo" class="logo">
+
+    <div class="form-title">Regristrasi</div>
+
+    <form>
+      <div class="row">
+        <!-- Kolom Kiri -->
+        <label for="religion" class="form-label">NAMA ANDA</label>
+        <div class="col-md-6">
+          
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="fas fa-user"></i></span>
+            <input type="text" class="form-control" id="firstName" placeholder="Nama Depan">
+          </div>
+          <div class="mb-3 input-group">
+            <input type="text" class="form-control" id="address" placeholder="Nim">
+          </div>
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="fas fa-phone"></i></span>
+            <input type="text" class="form-control" id="phone" placeholder="Nomor HP">
+          </div>
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="fas fa-home"></i></span>
+            <input type="text" class="form-control" id="address" placeholder="Alamat">
+          </div>
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="fas fa-link"></i></span>
+            <input type="url" class="form-control" id="website" placeholder="URL Website">
+        </div>
+        <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="fab fa-facebook"></i></span>
+            <input type="url" class="form-control" id="facebook" placeholder="URL Facebook">
+        </div>
+        <div class="mb-3 input-group">
+          <span class="input-group-text"><i class="fab fa-instagram"></i></span>
+          <input type="url" class="form-control" id="instagram" placeholder="URL Instagram">
+      </div>
+      <div class="mb-3 input-group">
+          <span class="input-group-text"><i class="fab fa-tiktok"></i></span>
+          <input type="url" class="form-control" id="tiktok" placeholder="URL Tiktok">
+      </div>
+      
+        </div>
+        <!-- Kolom Kanan -->
+        <div class="col-md-6">
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="fas fa-user"></i></span>
+            <input type="text" class="form-control" id="lastName" placeholder="Nama Belakang">
+          </div>
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="fas fa-envelope"></i></span>
+            <input type="email" class="form-control" id="email" placeholder="Email">
+          </div>
+          <div class="mb-3">
+            <label for="religion" class="form-label">Agama</label>
+            <select class="form-select" id="religion">
+              <option>Silakan Pilih</option>
+              <option>Islam</option>
+              <option>Hindu</option>
+              <option>Budha</option>
+              <option>Lainnya</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="gender" class="form-label">Jenis Kelamin</label>
+            <select class="form-select" id="gender">
+              <option>Silakan Pilih</option>
+              <option>Laki-laki</option>
+              <option>Perempuan</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="job" class="form-label">Pekerjaan</label>
+            <select class="form-select" id="job">
+              <option>Silakan Pilih</option>
+              <option>Swasta</option>
+              <option>PNS</option>
+              <option>TNI</option>
+              <option>Polri</option>
+              <option>Dokter</option>
+              <option>Programmer</option>
+              <option>DPR</option>
+              <option>Guru</option>
+              <option>Dosen</option>
+            </select>
+          </div>
+        </div>
+       <div class="ayah">
+        <label for="religion" class="form-label">AYAH</label>
+        <div class="mb-3 input-group">
+          <span class="input-group-text"><i class="fas fa-user"></i></span>
+          <input type="text" class="form-control" id="firstName" placeholder="Nama lengkap">
+        </div>
+        <div class="mb-3 input-group">
+          <span class="input-group-text"><i class="fas fa-home"></i></span>
+          <input type="text" class="form-control" id="address" placeholder="Alamat">
+        </div>
+        <div class="mb-3 input-group">
+          <input type="text" class="form-control" id="address" placeholder="Nik">
+        </div>
+        <div class="mb-3">
+          <label for="job" class="form-label">Pekerjaan</label>
+          <select class="form-select" id="job">
+            <option>Silakan Pilih</option>
+            <option>Swasta</option>
+            <option>PNS</option>
+            <option>TNI</option>
+            <option>Polri</option>
+            <option>Dokter</option>
+            <option>Programmer</option>
+            <option>DPR</option>
+            <option>Guru</option>
+            <option>Dosen</option>
+          </select>
+        </div>
+        <div class="mb-3 input-group">
+          <input type="text" class="form-control" id="address" placeholder="Penghasilan">
+        </div>
+        <div class="mb-3 input-group">
+          <span class="input-group-text"><i class="fas fa-phone"></i></span>
+          <input type="text" class="form-control" id="phone" placeholder="Nomor HP">
+        </div>
+       </div>
+      <div class="ibu">
+        <label for="religion" class="form-label">IBU</label>
+        <div class="mb-3 input-group">
+          <span class="input-group-text"><i class="fas fa-user"></i></span>
+          <input type="text" class="form-control" id="firstName" placeholder="Nama lengkap">
+        </div>
+        <div class="mb-3 input-group">
+          <span class="input-group-text"><i class="fas fa-home"></i></span>
+          <input type="text" class="form-control" id="address" placeholder="Alamat">
+        </div>
+        <div class="mb-3 input-group">
+          <input type="text" class="form-control" id="address" placeholder="Nik">
+        </div>
+        <div class="mb-3">
+          <label for="job" class="form-label">Pekerjaan</label>
+          <select class="form-select" id="job">
+            <option>Silakan Pilih</option>
+            <option>Swasta</option>
+            <option>PNS</option>
+            <option>TNI</option>
+            <option>Polri</option>
+            <option>Dokter</option>
+            <option>Programmer</option>
+            <option>DPR</option>
+            <option>Guru</option>
+            <option>Dosen</option>
+          </select>
+        </div>
+        <div class="mb-3 input-group">
+          <input type="text" class="form-control" id="address" placeholder="Penghasilan">
+        </div>
+        <div class="mb-3 input-group">
+          <span class="input-group-text"><i class="fas fa-phone"></i></span>
+          <input type="text" class="form-control" id="phone" placeholder="Nomor HP">
+        </div>
+      </div>
+      
+      </div>
+
+      <div class="row mt-4">
+        <div class="col-md-6">
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="fas fa-user-circle"></i></span>
+            <input type="text" class="form-control" id="username" placeholder="Username">
+          </div>
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+            <input type="password" class="form-control" id="password" placeholder="Password">
+          </div>
+          <div class="mb-3 input-group">
+            <span class="input-group-text"><i class="fas fa-lock"></i></span>
+            <input type="password" class="form-control" id="retypePassword" placeholder="Ulangi Password">
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-4">
+        <button type="submit" class="btn btn-submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- FontAwesome JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>

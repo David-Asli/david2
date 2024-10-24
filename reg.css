@@ -1,0 +1,66 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 15px;
+  }
+  .form-container {
+    background-color: rgb(238, 233, 233);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    width: 100%;
+    position: relative;
+  }
+  .form-title {
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: #333;
+  }
+  .logo {
+    width: 100px;
+    margin: 0 auto 20px;
+    display: block;
+  }
+  .form-control {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    transition: all 0.3s ease;
+  }
+  .form-control:focus {
+    border-color: #74ebd5;
+    box-shadow: 0 0 8px rgba(116, 235, 213, 0.5);
+  }
+  .btn-submit {
+    background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  .btn-submit:hover {
+    background: linear-gradient(135deg, #ACB6E5, #74ebd5);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .input-group-text {
+    background-color: #f1f1f1;
+    border: none;
+    border-radius: 10px 0 0 10px;
+  }
+  .col-md-6 {
+    margin-bottom: 30px;
+  }
+  .ayah {
+    margin-bottom: 30px;
+  }
+  .ibu {
+    margin-bottom: 30px;
+  }
